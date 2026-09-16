@@ -19,7 +19,7 @@ export function AboutTeaser() {
         >
           <Image
             src={ABOUT_STORY.image}
-            alt="Placeholder — table set for dining at Cincinati"
+            alt="Placeholder — table set for dining at The Eye Lounge"
             fill
             sizes="(min-width: 1024px) 45vw, 100vw"
             className="object-cover"

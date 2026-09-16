@@ -1,13 +1,13 @@
-# Cincinati — Bar & Kitchen
+# The Eye Lounge
 
-An Awwwards-style marketing site for Cincinati, a bar & restaurant in
-Kigali, Rwanda, built with Next.js (App Router), TypeScript, Tailwind CSS
-and Framer Motion.
+An Awwwards-style marketing site for The Eye Lounge, a bar in Kigali,
+Rwanda, built with Next.js (App Router), TypeScript, Tailwind CSS and
+Framer Motion.
 
 Menu items, imagery, team bios and testimonials are still **placeholder
 content** — edit `src/lib/data.ts` to swap them for your real menu, photos
-and copy. The restaurant name, address, phone, email and menu currency
-(RWF) already reflect the real brand.
+and copy. The bar's name, address, phone and menu currency (RWF) already
+reflect the real brand; the email is a placeholder.
 
 ## Tech Stack
 

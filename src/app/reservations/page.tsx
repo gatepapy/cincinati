@@ -5,8 +5,8 @@ import { FadeIn } from "@/components/ui/FadeIn";
 import { SITE } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Reservations — Cincinati",
-  description: "Reserve a table at Cincinati.",
+  title: "Reservations — The Eye Lounge",
+  description: "Reserve a table at The Eye Lounge.",
 };
 
 export default function ReservationsPage() {

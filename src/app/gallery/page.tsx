@@ -4,8 +4,8 @@ import { GalleryGrid } from "@/components/GalleryGrid";
 import { GALLERY_IMAGES } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Gallery — Cincinati",
-  description: "A look inside Cincinati — the room, the bar, and the plates.",
+  title: "Gallery — The Eye Lounge",
+  description: "A look inside The Eye Lounge — the room, the bar, and the plates.",
 };
 
 export default function GalleryPage() {

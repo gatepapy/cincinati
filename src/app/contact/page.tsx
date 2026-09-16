@@ -5,8 +5,8 @@ import { FadeIn } from "@/components/ui/FadeIn";
 import { SITE } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Contact — Cincinati",
-  description: "Get in touch with Cincinati.",
+  title: "Contact — The Eye Lounge",
+  description: "Get in touch with The Eye Lounge.",
 };
 
 export default function ContactPage() {
@@ -58,7 +58,7 @@ export default function ContactPage() {
 
             <div className="overflow-hidden rounded-2xl ring-1 ring-cream-50/10">
               <iframe
-                title="Map showing Cincinati location"
+                title="Map showing The Eye Lounge location"
                 src={SITE.mapEmbedSrc}
                 width="100%"
                 height="220"

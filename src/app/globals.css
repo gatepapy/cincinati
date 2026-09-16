@@ -27,6 +27,10 @@
   --color-burgundy-600: #6b1524;
   --color-burgundy-500: #8c1f30;
   --color-burgundy-100: #f5dde1;
+
+  /* Warm gold — Menu page background */
+  --color-gold-100: #e9cf8c;
+  --color-gold-50: #f2e2b3;
 }
 
 :root {
@@ -41,9 +45,40 @@
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
+  background-image:
+    radial-gradient(ellipse 70% 50% at 12% -10%, color-mix(in srgb, var(--color-espresso-600) 20%, transparent), transparent 60%),
+    radial-gradient(ellipse 60% 45% at 100% 110%, color-mix(in srgb, var(--color-burgundy-600) 16%, transparent), transparent 65%),
+    linear-gradient(180deg, #000000 0%, #05070d 45%, #0a1020 100%);
   color: var(--foreground);
   font-family: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Fancy layered backgrounds for the site's two base section tones —
+   replaces the flat fills with a subtle navy/burgundy glow (dark
+   sections) and a soft warm sheen (light sections). */
+.bg-midnight-950 {
+  background-color: var(--color-midnight-950);
+  background-image:
+    radial-gradient(ellipse 80% 55% at 15% 0%, color-mix(in srgb, var(--color-espresso-600) 18%, transparent), transparent 60%),
+    radial-gradient(ellipse 65% 50% at 100% 100%, color-mix(in srgb, var(--color-burgundy-600) 15%, transparent), transparent 65%),
+    linear-gradient(180deg, #000000 0%, #05070d 45%, #0a1020 100%);
+}
+
+.bg-cream-50 {
+  background-color: var(--color-cream-50);
+  background-image:
+    radial-gradient(ellipse 55% 40% at 100% 0%, color-mix(in srgb, var(--color-burgundy-500) 6%, transparent), transparent 70%),
+    radial-gradient(ellipse 50% 35% at 0% 100%, color-mix(in srgb, var(--color-espresso-500) 5%, transparent), transparent 70%),
+    linear-gradient(180deg, #ffffff 0%, #fbfbfc 100%);
+}
+
+.bg-gold-50 {
+  background-color: var(--color-gold-50);
+  background-image:
+    radial-gradient(ellipse 60% 45% at 100% 0%, color-mix(in srgb, var(--color-burgundy-500) 12%, transparent), transparent 70%),
+    radial-gradient(ellipse 55% 40% at 0% 100%, color-mix(in srgb, var(--color-gold-100) 60%, transparent), transparent 70%),
+    linear-gradient(180deg, var(--color-gold-50) 0%, var(--color-gold-100) 100%);
 }
 
 * {

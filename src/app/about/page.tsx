@@ -6,8 +6,8 @@ import { ABOUT_STORY, TEAM } from "@/lib/data";
 import { TeamGrid } from "./TeamGrid";
 
 export const metadata: Metadata = {
-  title: "About — Cincinati",
-  description: "The story, philosophy and team behind Cincinati.",
+  title: "About — The Eye Lounge",
+  description: "The story, philosophy and team behind The Eye Lounge.",
 };
 
 export default function AboutPage() {

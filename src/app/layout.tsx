@@ -13,10 +13,10 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: `${SITE.name} — Bar & Kitchen`,
+  title: `${SITE.name} — Bar`,
   description: SITE.description,
   openGraph: {
-    title: `${SITE.name} — Bar & Kitchen`,
+    title: `${SITE.name} — Bar`,
     description: SITE.description,
     type: "website",
   },
