@@ -21,7 +21,7 @@ export default function MenuPage() {
         imageAlt="Placeholder — cocktail on the bar at The Eye Lounge"
       />
 
-      <section className="bg-cream-50 py-20 sm:py-28">
+      <section className="bg-gold-50 py-20 sm:py-28">
         <div className="mx-auto max-w-4xl px-6 lg:px-8">
           <nav
             aria-label="Menu categories"
