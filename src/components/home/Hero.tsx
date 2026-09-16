@@ -24,7 +24,7 @@ export function Hero() {
       <motion.div style={{ y }} className="absolute inset-0">
         <Image
           src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?q=80&w=2400&auto=format&fit=crop"
-          alt="Placeholder — moody bar interior at Cincinati"
+          alt="Placeholder — moody bar interior at The Eye Lounge"
           fill
           priority
           sizes="100vw"
@@ -63,7 +63,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.35 }}
           className="mt-6 max-w-lg text-balance text-lg font-normal leading-relaxed text-cream-100/85 sm:text-xl"
         >
-          {SITE.tagline} Handcrafted cocktails, live-fire cooking, and a room
+          {SITE.tagline} Handcrafted cocktails, food at the bar, and a room
           built for the long evening ahead.
         </motion.p>
 
